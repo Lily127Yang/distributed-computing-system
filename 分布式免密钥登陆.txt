@@ -1,0 +1,13 @@
+一共有五个虚拟机 ecnu0 ecnu01 ecnu02 ecnu03 ecnu04
+并且这五个虚拟机不能同时打开，因为物理内存不够
+
+ecnu0用的最多，环境很全，有编写java代码的IDE，可以和ecnu01进行免密钥登陆，ecnu01是主节点
+
+
+ecnu01 ecnu02 ecnu03 ecnu04 都可以互相免密钥登陆，ecnu01是主节点，ecnu02 ecnu03是从节点，ecnu04是客户端
+测试指令分别是：
+ssh yangxiya123@ecnu0
+ssh dase-dis@ecnu01
+ssh dase-dis@ecnu02
+ssh dase-dis@ecnu03
+ssh dase-dis@ecnu04
